@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.background {
+  background-color: rgb(238, 238, 238);
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+  border-radius: 5px;
+  padding-top: auto;
+  padding-bottom: auto;
+  background-color: white;
+  margin-bottom: 4em;
+}
+
+#footer {
+  font-family: Merriweather;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: autopx;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#img-caption {
+  font-family: Merriweather;
+  font-weight: 1000;
+  text-align: center;
+  padding-top: 1em;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#image {
+  position: relative;
+  width: 50em;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+#header1container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  height: auto;
+  border-radius: 3px;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#title-under {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+  font-family: Merriweather;
+  font-size: 18px;
+  text-align: center;
+}
+
+#main {
+  font-family: Merriweather;
+}
+
+#tribute-link {
+  color: red;
+}
+
+#tribute-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#par {
+  overflow-wrap: break-word;
+  text-align: left;
+  margin: 2em auto 2em auto;
+  max-width: 35em;
+  line-height: 1.4em;
+}
+
+.litext {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
