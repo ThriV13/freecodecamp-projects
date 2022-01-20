@@ -17,14 +17,14 @@
   padding-top: auto;
   padding-bottom: auto;
   background-color: white;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 #footer {
   font-family: Merriweather;
   font-weight: bolder;
   text-align: center;
-  padding-top: autopx;
+
   font-style: italic;
   font-size: 16px;
   margin-left: 2%;
@@ -122,4 +122,19 @@
 .litext {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+#reference {
+  font-family: Merriweather;
+  text-align: center;
+  line-height: 0.3em;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.582);
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 450px) {
+  #reference {
+    line-height: 1em;
+  }
 }
