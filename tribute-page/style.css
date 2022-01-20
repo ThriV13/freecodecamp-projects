@@ -14,8 +14,7 @@
   margin-right: 0px;
   width: auto;
   border-radius: 5px;
-  padding-top: auto;
-  padding-bottom: auto;
+
   background-color: white;
   margin-bottom: 2em;
 }
@@ -24,9 +23,8 @@
   font-family: Merriweather;
   font-weight: bolder;
   text-align: center;
-
+  font-size: 0.9em;
   font-style: italic;
-  font-size: 16px;
   margin-left: 2%;
   margin-right: 2%;
 }
